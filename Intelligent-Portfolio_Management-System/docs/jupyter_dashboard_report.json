@@ -1,0 +1,43 @@
+{
+  "performance_summary": {
+    "total_return": 26.781813299999996,
+    "outperformance": 3.281813299999996,
+    "max_drawdown": -3.8833950461431286,
+    "sharpe_ratio": 1.4134184084169485,
+    "win_rate": 0.8571428571428571,
+    "total_trades": 42
+  },
+  "strategy_configuration": {
+    "best_strategy": "strong_moves",
+    "model_type": "RandomForestClassifier",
+    "confidence_thresholds": [
+      0.4,
+      0.6
+    ],
+    "regimes_used": [
+      "LOW",
+      "MEDIUM",
+      "HIGH"
+    ],
+    "stop_loss_implemented": true,
+    "optimal_stop_loss": 0.12
+  },
+  "validation_metrics": {
+    "positive_ratio": 0.8181818181818182,
+    "avg_improvement": 0.11289440799750078,
+    "std_improvement": 0.1481186201180355
+  },
+  "trading_statistics": {
+    "total_trades": 84,
+    "completed_trades": 42,
+    "winning_trades": 36,
+    "total_pnl": 2717.1262500000003,
+    "stop_loss_triggers": 2
+  },
+  "key_insights": {
+    "positive_validation_ratio": 0.8181818181818182,
+    "best_performing_regime": "MEDIUM",
+    "best_performing_symbol": "AAPL"
+  },
+  "generation_timestamp": "2025-10-24 14:18:56"
+}

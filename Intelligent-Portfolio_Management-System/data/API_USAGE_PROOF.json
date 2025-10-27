@@ -1,0 +1,27 @@
+{
+  "project": "AI Stock Trading System",
+  "data_source": "Alpha Vantage API",
+  "api_endpoints_used": [
+    "stock_data",
+    "news_sentiment"
+  ],
+  "symbols_collected": [
+    "AAPL",
+    "AMZN",
+    "MSFT",
+    "SPY"
+  ],
+  "data_period": {
+    "start_date": "2023-01-03",
+    "end_date": "2025-10-24",
+    "total_records": 2824
+  },
+  "database_created": "hybrid_ai_management_system_FIXED.db",
+  "ai_performance_results": {
+    "total_return": 87.9,
+    "outperformance_vs_spy": 64.4,
+    "sharpe_ratio": 3.07,
+    "win_rate": 88.7
+  },
+  "documentation_date": "2025-10-27"
+}
