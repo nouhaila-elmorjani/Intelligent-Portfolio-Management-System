@@ -38,7 +38,7 @@ A comprehensive machine learning-powered stock trading system that implements ad
 ## Technical Architecture
 
 ### Data Processing Pipeline
-- Historical price data collection and cleaning
+- Historical price and sentiment data collection and cleaning ftom Alpha Vantage API
 - Technical indicator calculation (moving averages, RSI, momentum oscillators)
 - Feature selection using correlation analysis
 - Market regime classification
