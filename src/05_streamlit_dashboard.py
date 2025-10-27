@@ -1,6 +1,6 @@
 # ==================================================
 # 05_Interactive_Dashboard.py
-# AI Trading System - Professional Interactive Dashboard (FIXED)
+# AI Trading System - Professional Interactive Dashboard 
 # ==================================================
 
 import streamlit as st
