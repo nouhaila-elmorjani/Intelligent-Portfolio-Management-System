@@ -67,23 +67,23 @@ class TradingDashboard:
     def load_data(self):
         """Load all necessary data for the dashboard"""
         try:
-            # Load model artifacts
-            self.artifacts = joblib.load('advanced_trading_models.pkl')
+            # Load model artifacts - UPDATED PATH
+            self.artifacts = joblib.load('models/advanced_trading_models.pkl')
             self.best_strategy = self.artifacts['best_strategy']
             
-            # Load backtest results
-            with open('enhanced_performance_report.json', 'r') as f:
+            # Load backtest results - UPDATED PATH
+            with open('results/enhanced_performance_report.json', 'r') as f:
                 self.backtest_results = json.load(f)
                 
-            # Load strategy performance
-            self.strategy_perf = pd.read_csv('strategy_performance_report.csv')
+            # Load strategy performance - UPDATED PATH
+            self.strategy_perf = pd.read_csv('results/strategy_performance_report.csv')
             
-            # Load portfolio history and trades
-            self.portfolio_df = pd.read_csv('enhanced_portfolio_history.csv')
-            self.trades_df = pd.read_csv('enhanced_trade_log.csv')
+            # Load portfolio history and trades - UPDATED PATHS
+            self.portfolio_df = pd.read_csv('results/enhanced_portfolio_history.csv')
+            self.trades_df = pd.read_csv('results/enhanced_trade_log.csv')
             
-            # Load enhanced dataset for current predictions
-            conn = sqlite3.connect("enhanced_trading_dataset_v2.db")
+            # Load enhanced dataset for current predictions - UPDATED PATH
+            conn = sqlite3.connect("data/enhanced_trading_dataset_v2.db")
             self.current_data = pd.read_sql("SELECT * FROM enhanced_trading_data", conn)
             conn.close()
             
