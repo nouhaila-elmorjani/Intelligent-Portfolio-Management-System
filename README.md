@@ -116,19 +116,4 @@ The system has been rigorously tested through:
 - Symbol-level performance consistency checks
 - Statistical significance testing of results
 
-## Future Enhancements
-
-- Real-time data integration
-- Additional asset class support
-- Deep learning model incorporation
-- Portfolio optimization features
-- Advanced risk management tools
-
-## License
-
-This project is intended for educational and research purposes in quantitative finance and algorithmic trading.
-
----
-
 *For detailed implementation and performance analysis, visit the live dashboard or explore the source code in the repository.*
-```
