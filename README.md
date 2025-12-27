@@ -87,7 +87,7 @@ Intelligent-Portfolio-Management-System/
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/Intelligent-Portfolio-Management-System.git
+git clone https://github.com/nouhaila-elmorjani/Intelligent-Portfolio-Management-System.git
 cd Intelligent-Portfolio-Management-System
 pip install -r requirements.txt
 ```
